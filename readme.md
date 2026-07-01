@@ -124,6 +124,9 @@ models/
 | Escapement Mechanism | `mechanical/escapement_mechanism.scad` | Swiss lever escapement: 15-tooth escape wheel, pallet fork with jewels, balance wheel + hairspring, frame plate | Dual |
 | Dupin Cyclide Vase | `math_art/dupin_cyclide_vase.scad` | Dupin's 1822 fourth-degree algebraic surface as a vase — both curvature families are circles, conformal inversion of a torus | Dual |
 | Double Pendulum Stand | `kinetic/double_pendulum_stand.scad` | Chaos theory demo stand, two linked pendulum arms with 605 bearing pivots, phase space trajectory plate | Dual |
+| Antikythera Mechanism | `mechanical/antikythera_mechanism.scad` | World's first analog computer (~150BC): b1 gear (223T Saros cycle), Metonic train, zodiac dial (12 signs), Saros spiral (223 months, 4 turns), Exeligmos | Dual |
+| Klein Bottle Sculpture | `math_art/klein_bottle_sculpture.scad` | Non-orientable surface 3D immersion: lower toroidal body, neck arc passing through wall, self-intersection collar rings, label with topology equations | Dual |
+| Magnetic Hex Organizer | `functional/magnetic_hex_organizer.scad` | Modular hexagonal desk organizer with 8×3mm neodymium magnet pockets, alignment pins, cable slot, 4 heights (20/55/90/130mm), 3×2 base plate | Dual |
 
 ### 🎨 Art & Display
 
@@ -208,6 +211,8 @@ models/
 | Manta Ray | `nature/manta_ray_blender.stl` | Oceanic manta ray, 240mm wingspan, cephalic horns, gill slits, belly spots, whip tail | Dual |
 | Medusa Wall Plaque | `characters/medusa_wall_blender.stl` | Medusa head wall mount: 8 writhing snake hair, fangs, dramatic gaze, Greek border, keyhole hanger, 200×93×195mm | Dual |
 | Baobab Tree | `nature/baobab_tree_blender.stl` | African "upside-down tree": massive bulging trunk, root buttresses, chaotic leafless branches, savanna base, 126×130×185mm | Single |
+| Koi Fish | `nature/koi_fish_blender.stl` | Japanese koi in dramatic leap pose: scale texture, dorsal/pectoral/caudal fins, barbel whiskers, water splash base with ripple rings, 230×158×188mm | Dual |
+| Gargoyle | `characters/gargoyle_blender.stl` | Gothic gargoyle perched on stone cornice: folded bat wings, curved horns, snarling face with fangs, gripping claws, stone texture, 200×119×143mm | Single |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -379,9 +384,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 157+ |
-| Blender STL models | 17 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish, phoenix, manta ray, medusa, baobab) |
-| Categories | 68+ |
+| Total .scad files | 160+ |
+| Blender STL models | 19 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish, phoenix, manta ray, medusa, baobab, koi, gargoyle) |
+| Categories | 71+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -409,7 +414,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender · phoenix_blender · manta_ray_blender · medusa_wall_blender · baobab_tree_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender · phoenix_blender · manta_ray_blender · medusa_wall_blender · baobab_tree_blender · koi_fish_blender · gargoyle_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
