@@ -113,6 +113,8 @@ models/
 | Hopf Fibration | `math_art/hopf_fibration_display.scad` | 32 Villarceau circles (S³→S²), interlocked fiber rings, 240mm | Dual |
 | 4-Bar Linkage | `kinematic/four_bar_linkage.scad` | Grashof crank-rocker with coupler point tracer, Grashof proven | Dual |
 | Acoustic Amplifier | `functional/passive_acoustic_amplifier.scad` | Exponential horn phone stand, ~15dB passive gain, no power | Dual |
+| Cycloidal Drive | `mechanical/cycloid_drive.scad` | Hypocycloid 10:1 gear reduction, 11-pin ring, eccentric disk, viewing windows | Dual |
+| Tensegrity Display | `functional/tensegrity_display.scad` | 3-strut floating tensegrity with assembly jig + string card, indexed holes | Dual |
 
 ### 🎨 Art & Display
 
@@ -131,6 +133,7 @@ models/
 | Mandala Wall Art | `art/mandala_wall_art_base.scad` | Parametric Islamic-inspired mandala | Dual |
 | Escher Lizard Tile | `surface_art/escher_lizard_tile.scad` | M.C. Escher tessellation panel | Dual |
 | Voronoi Lamp Shade | `art/voronoi_lamp_shade.scad` | Organic Voronoi cells, E27 socket, 200mm | Dual |
+| Chladni Wall Art | `art/chladni_wall_art.scad` | 6-panel scientific resonance patterns, gallery rail, mode (1,1) to (3,3) | Dual |
 
 ### 🏛️ Architecture & Historical
 
@@ -188,6 +191,8 @@ models/
 | Dragon Head Wall | `characters/dragon_head_wall_blender.stl` | Dragon bust with horns, ridge spikes, slit eyes, shield plaque, 180mm | Multi |
 | Axolotl | `characters/axolotl_blender.stl` | Wide-headed axolotl with feathery gill branches, dorsal fin, 180mm | Dual |
 | Crystal Geode | `nature/crystal_geode_blender.stl` | Geode cross-section: amethyst+quartz+citrine crystals, 155mm | Multi |
+| Narwhal | `characters/narwhal_blender.stl` | Metaball narwhal with twisted spiral horn, flukes, pectoral fins, spots, 240mm | Dual |
+| Steampunk Octopus | `characters/steampunk_octopus_blender.stl` | 8 gear-ringed tentacles, goggle eyes, top hat, rivet band, gear badge, 204mm | Multi |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -359,9 +364,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 145+ |
-| Blender STL models | 9 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode) |
-| Categories | 58+ |
+| Total .scad files | 148+ |
+| Blender STL models | 11 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus) |
+| Categories | 60+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -379,9 +384,9 @@ These models are suitable for:
 
 **#wall-art** — nautilus_wall_art · mondrian_wall_panel · knotwork_panel · 8star_geometric_panel · moroccan_zellige_coaster · mandala_wall_art · penrose_tiling_coaster · ammonite_fossil · city_skyline_panel · topographic_coaster
 
-**#math-art** — hilbert_cube_sculpture · sierpinski_pyramid · seifert_surface_sculpture · klein_bottle_vase · borromean_rings_sculpture · hyperbolic_paraboloid_vase · fibonacci_ruler_set · astrolabe_planispheric · nautilus_wall_art
+**#math-art** — hilbert_cube_sculpture · sierpinski_pyramid · seifert_surface_sculpture · klein_bottle_vase · borromean_rings_sculpture · hyperbolic_paraboloid_vase · fibonacci_ruler_set · astrolabe_planispheric · nautilus_wall_art · hopf_fibration_display · chladni_wall_art
 
-**#mechanical** — iris_aperture_box · spirograph_machine · gear_clock_face · orrery_solar_system · mechanical_music_box · cryptex_password_box · moon_phase_calendar · automata_walking_figure · jansen_linkage_walker · mechanical_blooming_flower · coin_sorting_bank
+**#mechanical** — iris_aperture_box · spirograph_machine · gear_clock_face · orrery_solar_system · mechanical_music_box · cryptex_password_box · moon_phase_calendar · automata_walking_figure · jansen_linkage_walker · mechanical_blooming_flower · coin_sorting_bank · cycloid_drive · harmonic_drive · wobble_disc_gear · planetary_gear_set · geneva_drive
 
 **#gifts** — saturn_ring_box · premium_jewelry_box · crystal_vase_parametric · cryptex_password_box · mechanical_music_box · vinyl_record_display · advent_calendar_box · zoetrope_3d · ammonite_fossil
 
@@ -389,7 +394,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
