@@ -115,6 +115,9 @@ models/
 | Acoustic Amplifier | `functional/passive_acoustic_amplifier.scad` | Exponential horn phone stand, ~15dB passive gain, no power | Dual |
 | Cycloidal Drive | `mechanical/cycloid_drive.scad` | Hypocycloid 10:1 gear reduction, 11-pin ring, eccentric disk, viewing windows | Dual |
 | Tensegrity Display | `functional/tensegrity_display.scad` | 3-strut floating tensegrity with assembly jig + string card, indexed holes | Dual |
+| Differential Gear | `mechanical/differential_gear.scad` | Open automotive differential: ring + 2 spider + 2 side bevel gears, cutaway housing | Dual |
+| Oloid Sculpture | `math_art/oloid_sculpture.scad` | Oloid rolling toy (Paul Schatz 1929), convex hull of 2 interlocked circles, full surface contact | Single |
+| Sand Harmograph | `kinetic/sand_pendulum_harmograph.scad` | Two-pendulum Lissajous curve tracer with sand funnel, length-ratio freq control | Dual |
 
 ### 🎨 Art & Display
 
@@ -193,6 +196,8 @@ models/
 | Crystal Geode | `nature/crystal_geode_blender.stl` | Geode cross-section: amethyst+quartz+citrine crystals, 155mm | Multi |
 | Narwhal | `characters/narwhal_blender.stl` | Metaball narwhal with twisted spiral horn, flukes, pectoral fins, spots, 240mm | Dual |
 | Steampunk Octopus | `characters/steampunk_octopus_blender.stl` | 8 gear-ringed tentacles, goggle eyes, top hat, rivet band, gear badge, 204mm | Multi |
+| Kitsune Fox | `characters/kitsune_fox_blender.stl` | Nine-tailed Japanese fox spirit, 9 flowing curved tails, slit pupils, whiskers, 238mm | Dual |
+| Deep Sea Anglerfish | `nature/anglerfish_blender.stl` | Anglerfish with bioluminescent esca lure, curved illicium rod, massive fangs, pale eyes, 204mm | Single |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -364,9 +369,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 148+ |
-| Blender STL models | 11 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus) |
-| Categories | 60+ |
+| Total .scad files | 151+ |
+| Blender STL models | 13 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish) |
+| Categories | 62+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -394,7 +399,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
