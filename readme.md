@@ -1,6 +1,6 @@
 # 🖨️ 3D Print Model Library
 
-A curated collection of **136+ parametric OpenSCAD models + Blender character/organic library** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
+A curated collection of **139+ parametric OpenSCAD models + Blender character/organic library** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
 
 ---
 
@@ -104,6 +104,9 @@ models/
 | Geneva Drive | `mechanical/geneva_drive.scad` | 4-slot intermittent motion mechanism, M5 axles | Dual |
 | Planetary Gearset | `mechanical/planetary_gear_set.scad` | 3-planet epicyclic 4:1 gearbox, sun+ring+carrier | Dual |
 | Torus Knot Vase | `math_art/torus_knot_vase.scad` | Trefoil (3,2) knot swept tube, functional base | Single |
+| Wobble Disc Gear | `mechanical/wobble_disc_gear.scad` | Nutating plate 36:1 single-stage reduction, M5/M6 | Dual |
+| Lissajous Lamp | `math_art/lissajous_lamp.scad` | 3D Lissajous curve (3,4,2) PETG lamp, E14 socket | Dual |
+| Hex Wall Tiles | `functional/modular_wall_tile_system.scad` | 4 patterns: star/honeycomb/sunburst/plain, snap-fit | Dual |
 
 ### 🎨 Art & Display
 
@@ -173,6 +176,8 @@ models/
 |---|---|---|---|
 | Sitting Cat | `characters/cat_sitting_blender.stl` | Metaball cat with collar, bell, whiskers, green eyes | Dual-print (gray+red) |
 | Mushroom Cluster | `nature/mushroom_cluster_blender.stl` | 10-mushroom forest scene, Amanita style, forest floor | Multi |
+| Barn Owl on Perch | `characters/barn_owl_blender.stl` | Detailed barn owl, feather strips, talons, branch perch, 150mm | Dual |
+| Coral Reef Scene | `nature/coral_reef_blender.stl` | Sea anemones + staghorn coral + seaweed, 160mm | Multi |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -344,15 +349,15 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 136+ |
-| Blender STL models | 3 (cat, mushroom cluster, pikachu) |
-| Categories | 52+ |
+| Total .scad files | 139+ |
+| Blender STL models | 5 (cat, mushroom, pikachu, owl, coral) |
+| Categories | 54+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
-| Functional everyday objects | ~40 models |
-| Art & display pieces | ~52 models |
-| Mechanical / kinematic | ~18 models |
+| Functional everyday objects | ~42 models |
+| Art & display pieces | ~54 models |
+| Mechanical / kinematic | ~20 models |
 
 ---
 
@@ -374,7 +379,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
