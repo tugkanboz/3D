@@ -1,6 +1,6 @@
 # 🖨️ 3D Print Model Library
 
-A curated collection of **142+ parametric OpenSCAD models + Blender character/organic library** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
+A curated collection of **145+ parametric OpenSCAD models + Blender character/organic library** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
 
 ---
 
@@ -110,6 +110,9 @@ models/
 | Harmonic Drive | `mechanical/harmonic_drive.scad` | Strain wave gear 31:1 (wave gen + flex spline + ring) | Dual |
 | Anamorphic Coaster | `optical/anamorphic_cylinder_art.scad` | Polar-distorted art reveals image in mirror cylinder | Dual |
 | Key Cabinet | `functional/parametric_key_cabinet.scad` | 12-hook wall cabinet, labeled, magnetic door, pegboard | Dual |
+| Hopf Fibration | `math_art/hopf_fibration_display.scad` | 32 Villarceau circles (S³→S²), interlocked fiber rings, 240mm | Dual |
+| 4-Bar Linkage | `kinematic/four_bar_linkage.scad` | Grashof crank-rocker with coupler point tracer, Grashof proven | Dual |
+| Acoustic Amplifier | `functional/passive_acoustic_amplifier.scad` | Exponential horn phone stand, ~15dB passive gain, no power | Dual |
 
 ### 🎨 Art & Display
 
@@ -183,6 +186,8 @@ models/
 | Coral Reef Scene | `nature/coral_reef_blender.stl` | Sea anemones + staghorn coral + seaweed, 160mm | Multi |
 | Fennec Fox | `characters/fennec_fox_blender.stl` | Metaball fennec with giant ears, slit eyes, belly patch, 130mm | Dual |
 | Dragon Head Wall | `characters/dragon_head_wall_blender.stl` | Dragon bust with horns, ridge spikes, slit eyes, shield plaque, 180mm | Multi |
+| Axolotl | `characters/axolotl_blender.stl` | Wide-headed axolotl with feathery gill branches, dorsal fin, 180mm | Dual |
+| Crystal Geode | `nature/crystal_geode_blender.stl` | Geode cross-section: amethyst+quartz+citrine crystals, 155mm | Multi |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -354,9 +359,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 142+ |
-| Blender STL models | 7 (cat, mushroom, pikachu, owl, coral, fennec, dragon) |
-| Categories | 56+ |
+| Total .scad files | 145+ |
+| Blender STL models | 9 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode) |
+| Categories | 58+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -384,7 +389,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
