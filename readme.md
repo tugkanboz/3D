@@ -118,6 +118,9 @@ models/
 | Differential Gear | `mechanical/differential_gear.scad` | Open automotive differential: ring + 2 spider + 2 side bevel gears, cutaway housing | Dual |
 | Oloid Sculpture | `math_art/oloid_sculpture.scad` | Oloid rolling toy (Paul Schatz 1929), convex hull of 2 interlocked circles, full surface contact | Single |
 | Sand Harmograph | `kinetic/sand_pendulum_harmograph.scad` | Two-pendulum Lissajous curve tracer with sand funnel, length-ratio freq control | Dual |
+| Wankel Rotary Engine | `mechanical/wankel_rotary_engine.scad` | Epitrochoid housing, triangular rotor, ports, spark plug holes, combustion phase labels | Dual |
+| Schwartz-P Lamp | `math_art/schwartz_p_lamp.scad` | Triply periodic minimal surface lamp shade, TPMS aperture pattern, E27 socket, 200mm | Dual |
+| Accordion Lantern | `functional/collapsible_accordion_lantern.scad` | Print-in-place collapsible hexagonal lantern, 5 accordion folds, 120mm→30mm collapsed | Dual |
 
 ### 🎨 Art & Display
 
@@ -198,6 +201,8 @@ models/
 | Steampunk Octopus | `characters/steampunk_octopus_blender.stl` | 8 gear-ringed tentacles, goggle eyes, top hat, rivet band, gear badge, 204mm | Multi |
 | Kitsune Fox | `characters/kitsune_fox_blender.stl` | Nine-tailed Japanese fox spirit, 9 flowing curved tails, slit pupils, whiskers, 238mm | Dual |
 | Deep Sea Anglerfish | `nature/anglerfish_blender.stl` | Anglerfish with bioluminescent esca lure, curved illicium rod, massive fangs, pale eyes, 204mm | Single |
+| Phoenix | `characters/phoenix_blender.stl` | Perched phoenix with spread wings (230mm), primary/secondary feathers, crest, rock perch | Dual |
+| Manta Ray | `nature/manta_ray_blender.stl` | Oceanic manta ray, 240mm wingspan, cephalic horns, gill slits, belly spots, whip tail | Dual |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -369,9 +374,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 151+ |
-| Blender STL models | 13 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish) |
-| Categories | 62+ |
+| Total .scad files | 154+ |
+| Blender STL models | 15 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish, phoenix, manta ray) |
+| Categories | 65+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -399,7 +404,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender · phoenix_blender · manta_ray_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
