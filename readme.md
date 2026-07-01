@@ -121,6 +121,9 @@ models/
 | Wankel Rotary Engine | `mechanical/wankel_rotary_engine.scad` | Epitrochoid housing, triangular rotor, ports, spark plug holes, combustion phase labels | Dual |
 | Schwartz-P Lamp | `math_art/schwartz_p_lamp.scad` | Triply periodic minimal surface lamp shade, TPMS aperture pattern, E27 socket, 200mm | Dual |
 | Accordion Lantern | `functional/collapsible_accordion_lantern.scad` | Print-in-place collapsible hexagonal lantern, 5 accordion folds, 120mm→30mm collapsed | Dual |
+| Escapement Mechanism | `mechanical/escapement_mechanism.scad` | Swiss lever escapement: 15-tooth escape wheel, pallet fork with jewels, balance wheel + hairspring, frame plate | Dual |
+| Dupin Cyclide Vase | `math_art/dupin_cyclide_vase.scad` | Dupin's 1822 fourth-degree algebraic surface as a vase — both curvature families are circles, conformal inversion of a torus | Dual |
+| Double Pendulum Stand | `kinetic/double_pendulum_stand.scad` | Chaos theory demo stand, two linked pendulum arms with 605 bearing pivots, phase space trajectory plate | Dual |
 
 ### 🎨 Art & Display
 
@@ -203,6 +206,8 @@ models/
 | Deep Sea Anglerfish | `nature/anglerfish_blender.stl` | Anglerfish with bioluminescent esca lure, curved illicium rod, massive fangs, pale eyes, 204mm | Single |
 | Phoenix | `characters/phoenix_blender.stl` | Perched phoenix with spread wings (230mm), primary/secondary feathers, crest, rock perch | Dual |
 | Manta Ray | `nature/manta_ray_blender.stl` | Oceanic manta ray, 240mm wingspan, cephalic horns, gill slits, belly spots, whip tail | Dual |
+| Medusa Wall Plaque | `characters/medusa_wall_blender.stl` | Medusa head wall mount: 8 writhing snake hair, fangs, dramatic gaze, Greek border, keyhole hanger, 200×93×195mm | Dual |
+| Baobab Tree | `nature/baobab_tree_blender.stl` | African "upside-down tree": massive bulging trunk, root buttresses, chaotic leafless branches, savanna base, 126×130×185mm | Single |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -374,9 +379,9 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 154+ |
-| Blender STL models | 15 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish, phoenix, manta ray) |
-| Categories | 65+ |
+| Total .scad files | 157+ |
+| Blender STL models | 17 (cat, mushroom, pikachu, owl, coral, fennec, dragon, axolotl, geode, narwhal, steampunk octopus, kitsune, anglerfish, phoenix, manta ray, medusa, baobab) |
+| Categories | 68+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
@@ -404,7 +409,7 @@ These models are suitable for:
 
 **#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
 
-**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender · phoenix_blender · manta_ray_blender
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender · barn_owl_blender · coral_reef_blender · fennec_fox_blender · dragon_head_wall_blender · axolotl_blender · crystal_geode_blender · narwhal_blender · steampunk_octopus_blender · kitsune_fox_blender · anglerfish_blender · phoenix_blender · manta_ray_blender · medusa_wall_blender · baobab_tree_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
