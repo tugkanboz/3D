@@ -1,6 +1,6 @@
 # 🖨️ 3D Print Model Library
 
-A curated collection of **130+ parametric OpenSCAD models** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
+A curated collection of **136+ parametric OpenSCAD models + Blender character/organic library** designed specifically for the **Bambu Lab P2S Combo** with **AMS HT** (4-color multi-material printing). Every model is print-ready for PLA or PETG — no resin.
 
 ---
 
@@ -54,12 +54,12 @@ models/
 ├── kitchen/             Herb planter, magnetic spice rack
 ├── lego/                Compatible bricks, baseplate, keycap, minifig stand
 ├── marine/              Nautilus logarithmic spiral wall art
-├── math_art/            3D Hilbert curve sculpture
+├── math_art/            3D Hilbert curve sculpture, torus knot vase
 ├── maze3d/              3-level internal marble maze sphere
-├── mechanical/          Gear clock, orrery solar system, automata figure
+├── mechanical/          Gear clock, orrery solar system, automata figure, Geneva drive, planetary gearset
 ├── miniature/           Roman Colosseum, Japanese zen garden
 ├── music/               Mechanical music box, vinyl record display
-├── nature/              Ammonite fossil, leaf bowl, turtle box
+├── nature/              Ammonite fossil, leaf bowl, turtle box, mushroom cluster (Blender)
 ├── optical/             Kaleidoscope full kit
 ├── optical_art/         Penrose tiling, impossible triangle lamp, anamorphic art
 ├── outdoor/             Solar light plant stake
@@ -78,7 +78,9 @@ models/
 ├── topology/            Klein bottle vase
 ├── vehicles/            Formula 1 display, toy car
 ├── wearable/            Auxetic bracelet, chainmail patch, steampunk goggles
-└── wind/                Kinetic outdoor wind sail sculpture
+├── wind/                Kinetic outdoor wind sail sculpture
+├── characters/          Chibi character figures (Pikachu, sitting cat — Blender)
+└── art/                 City skyline lamp, mandala, voronoi lamp shade, spiral tower
 ```
 
 ---
@@ -99,6 +101,9 @@ models/
 | Moon Phase Calendar | `astronomy/moon_phase_calendar.scad` | Rotating 8-phase disc + 30-day ring, wall-mount | Dual |
 | Mechanical Flower | `botanical/mechanical_blooming_flower.scad` | Cam-actuated 8-petal iris, rotate base to open | Dual |
 | Compliant Gripper | `compliant/compliant_gripper.scad` | Single-print flexure gripper, 1.4mm hinges | Single |
+| Geneva Drive | `mechanical/geneva_drive.scad` | 4-slot intermittent motion mechanism, M5 axles | Dual |
+| Planetary Gearset | `mechanical/planetary_gear_set.scad` | 3-planet epicyclic 4:1 gearbox, sun+ring+carrier | Dual |
+| Torus Knot Vase | `math_art/torus_knot_vase.scad` | Trefoil (3,2) knot swept tube, functional base | Single |
 
 ### 🎨 Art & Display
 
@@ -116,6 +121,7 @@ models/
 | Voronoi Skull | `skull/voronoi_skull.scad` | Lattice openings, eye glow, planter | Dual |
 | Mandala Wall Art | `art/mandala_wall_art_base.scad` | Parametric Islamic-inspired mandala | Dual |
 | Escher Lizard Tile | `surface_art/escher_lizard_tile.scad` | M.C. Escher tessellation panel | Dual |
+| Voronoi Lamp Shade | `art/voronoi_lamp_shade.scad` | Organic Voronoi cells, E27 socket, 200mm | Dual |
 
 ### 🏛️ Architecture & Historical
 
@@ -160,6 +166,13 @@ models/
 | LEGO-Compatible Bricks | `lego/lego_brick.scad` | Standard-stud compatible brick + baseplate | Single |
 | Marble Run Pack | `games/marble_run_pack.scad` | 6 snap-connect sections: loop, split, funnel | Single |
 | Controller Stand | `gaming/controller_stand_dual.scad` | Dual controller display stand | Dual |
+
+### 🎨 Blender Organic Models
+
+| Model | File | Description | Colors |
+|---|---|---|---|
+| Sitting Cat | `characters/cat_sitting_blender.stl` | Metaball cat with collar, bell, whiskers, green eyes | Dual-print (gray+red) |
+| Mushroom Cluster | `nature/mushroom_cluster_blender.stl` | 10-mushroom forest scene, Amanita style, forest floor | Multi |
 
 ### 🦕 Flexi Animals (Print-in-Place)
 
@@ -322,8 +335,8 @@ These models are suitable for:
 | **OpenSCAD** | 2021.01+ | Parametric model creation (all .scad files) |
 | **BambuStudio** | Latest | Slicing, color assignment, AMS management |
 | **export_all.ps1** | — | Batch STL export script |
-| **Python / trimesh** | planned | Organic and character model generation |
-| **Blender + bpy** | planned | High-detail sculpted models (needs Blender installed) |
+| **Blender 5.1 + bpy** | 5.1 | Organic/character model generation (metaballs, subdivision surface) |
+| **blender-mcp** | v1.6.4 | MCP server for AI-driven Blender scripting |
 
 ---
 
@@ -331,14 +344,15 @@ These models are suitable for:
 
 | Metric | Value |
 |---|---|
-| Total .scad files | 130+ |
-| Categories | 50+ |
+| Total .scad files | 136+ |
+| Blender STL models | 3 (cat, mushroom cluster, pikachu) |
+| Categories | 52+ |
 | Dual-color models | ~60% |
 | 4-color AMS models | ~10% |
 | Print-in-place mechanisms | 20+ models |
 | Functional everyday objects | ~40 models |
-| Art & display pieces | ~50 models |
-| Mechanical / kinematic | ~15 models |
+| Art & display pieces | ~52 models |
+| Mechanical / kinematic | ~18 models |
 
 ---
 
@@ -357,6 +371,10 @@ These models are suitable for:
 **#gifts** — saturn_ring_box · premium_jewelry_box · crystal_vase_parametric · cryptex_password_box · mechanical_music_box · vinyl_record_display · advent_calendar_box · zoetrope_3d · ammonite_fossil
 
 **#kids** — marble_run_pack · marble_run_spiral · marble_maze_sphere · flexi_dragon · flexi_octopus · articulated_trex · lego_brick · dice_tower_dragon · cat_feeder_puzzle
+
+**#characters** — pikachu_chibi · cat_sitting_blender · mushroom_cluster_blender
+
+**#blender-organic** — cat_sitting_blender · mushroom_cluster_blender · pikachu_blender
 
 **#flexi-animals** — flexi_dragon · articulated_trex · flexi_octopus · flexi_stegosaurus · mechanical_hand
 
